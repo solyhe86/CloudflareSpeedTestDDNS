@@ -18,7 +18,7 @@ jobs:
     if: github.event.repository.owner.id == github.event.sender.id
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: docker login
       env:
         DOCKER_USER: ${{secrets.DOCKER_USER}}
@@ -40,7 +40,7 @@ jobs:
             --platform linux/386,linux/amd64,linux/arm/v6,linux/arm/v7,linux/arm64 \
             --output "type=image,push=true" \
             --file Dockerfile \
-            --tag ykxvk8yl5l/mynav:latest
+            --tag solyhe84/cfst:latest
             
     #- name: Docker Push
-    #  run: docker push ykxvk8yl5l/mynav
+    #  run: docker push solyhe84/cfst
