@@ -4,9 +4,11 @@ LABEL Maintainer="" \
 
 # Install packages and remove default server definition
 RUN apk --no-cache add jq curl tar wget bash
-
+RUN mkdir -p /etc/cf_ddns
 # Configure 
-COPY cf_ddns/ /etc/
+COPY start.sh /etc/cf_ddns/
+COPY config.conf /etc/cf_ddns/
+COPY cf_ddns/ /etc/cf_ddns/
 
 # Add application
 WORKDIR /etc/cf_ddns/
