@@ -13,7 +13,6 @@ COPY cf_ddns /cf_ddns/cf_ddns/
 
 # Add application
 WORKDIR /cf_ddns
-VOLUME /cf_ddns
 
 # Expose the port nginx is reachable on
 # EXPOSE 8080
