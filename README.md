@@ -9,10 +9,15 @@
 bash start.sh
 ```
 
-目前只支持运行一次
-修改前置进程，参考https://www.swvq.com/article/detail/9961
-添加时区，可定义计划任务:CRON
+# 目前只支持运行一次
 
+
+# 修改前置进程，参考https://www.swvq.com/article/detail/9961
+
+
+# 添加时区，可定义计划任务:CRON
+
+</b1>
 
 ## ~~[教程过旧，待更新](https://blog.vbar.fun/archives/openwrt-ding-shi-you-xuan-cloudflareip-bing-geng-xin-dao-cloudflare)~~
 ~~详细使用教程请参考[详细教程](https://blog.vbar.fun/archives/openwrt-ding-shi-you-xuan-cloudflareip-bing-geng-xin-dao-cloudflare)~~
