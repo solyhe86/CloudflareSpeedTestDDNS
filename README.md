@@ -17,7 +17,7 @@ bash start.sh
 
 # 添加时区，可定义计划任务:CRON
 
-</b1>
+# 不能对同一域名添加不同记录
 
 ## ~~[教程过旧，待更新](https://blog.vbar.fun/archives/openwrt-ding-shi-you-xuan-cloudflareip-bing-geng-xin-dao-cloudflare)~~
 ~~详细使用教程请参考[详细教程](https://blog.vbar.fun/archives/openwrt-ding-shi-you-xuan-cloudflareip-bing-geng-xin-dao-cloudflare)~~
