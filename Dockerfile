@@ -17,4 +17,4 @@ WORKDIR /etc/cf_ddns/
 # EXPOSE 8080
 
 # Let supervisord start nginx & php-fpm
-CMD ["/etc/cf_ddns/start.sh"]
+CMD ["sh","/etc/cf_ddns/start.sh"]
