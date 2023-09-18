@@ -17,4 +17,4 @@ WORKDIR /cf_ddns/
 # EXPOSE 8080
 
 # Let supervisord start
-ENTRYPOINT ["/cf_ddns/start.sh"]
+CMD ["/cf_ddns/start.sh"]
