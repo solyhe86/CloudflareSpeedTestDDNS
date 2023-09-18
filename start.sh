@@ -1,5 +1,5 @@
 #!/bin/bash
-source config.conf;
+source ./config.conf;
 
 source ./cf_ddns/cf_check.sh
 
